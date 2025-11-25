@@ -1,0 +1,51 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
+/* offline css font family */
+
+/* .para{
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+
+/* online css font family */
+
+.para{
+     font-family: "Edu NSW ACT Cursive", cursive;
+     font-size: 20px;
+     /* font-weight: 100; */
+     /* font-weight: bold; */
+     /* font-weight: lighter; */
+     line-height: 50px;
+     letter-spacing: 2px;
+     word-spacing: 10px;
+     text-decoration: underline;
+     text-indent: 300px;
+
+}
+
+.heading{
+    /* text-align: center; */
+    /* text-align: end; */
+    /* text-align: start; */
+    /* text-decoration: dotted; */
+    /* font-style: italic; */
+    font-style: normal;
+}
+
+
+#anchorlink{
+    text-decoration: none;
+    /* text-decoration: dotted; */
+}
+
+.italictag{
+    font-style: normal;
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    text-transform: capitalize;
+}
+
+.list-items{
+    /* list-style: none; */
+    list-style: circle;
+    /* text-align: center; */
+}
