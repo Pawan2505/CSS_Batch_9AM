@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* vs code suggessition */
+/* .para{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+
+.para{
+      font-family: "Dancing Script", cursive;
+      font-size: 30px;
+      /* font-weight: 900; */
+      font-weight: 400;
+      line-height: 40px;
+      letter-spacing: 3px;
+      word-spacing: 10px;
+      /* text-transform: uppercase; */
+      /* text-transform: lowercase; */
+      text-transform: capitalize;
+      text-indent: 200px;
+      color: rebeccapurple;
+}
+
+.heading{
+    text-align: center;
+    /* text-align: end; */
+    /* text-align: start; */
+    /* text-align: justify; */
+    text-decoration: underline;
+}
+
+.next{
+    text-decoration: none;
+    font-style: italic;
+}
+
+i{
+    font-style: normal;
+}
+
+.list-items{
+    /* list-style: none; */
+    /* list-style: square; */
+    list-style: circle;
+}
