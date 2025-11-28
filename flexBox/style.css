@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.logo{
+    margin-left: 100px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu-list{
+    list-style: none;
+    margin-left: 60px;
+}
+
+.btn{
+    margin-right: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
