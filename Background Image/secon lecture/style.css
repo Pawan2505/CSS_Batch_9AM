@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 40%;
+    height: 400px;
+    /* border: 1px solid green; */
+    background-image: url('../images/Ronaldo.jpg');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+    /* background-size: 40% 400px; */
+    /* background-attachment: scroll; */
+    /* background-attachment: local; */
+    background-attachment: fixed;
+    background-position: bottom;
+}
