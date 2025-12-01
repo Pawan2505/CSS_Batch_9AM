@@ -1,0 +1,26 @@
+
+.container{
+     display: flex;
+     justify-content: space-around;
+}
+
+
+.box{
+    width: 100px;
+    height: 200px;
+    border: 1px solid black;
+   
+}
+
+.thirdbox{
+    background-color: red;
+}
+
+/* .container>.thirdbox{
+    background-color: red;
+} */
+
+
+.shadowbox{
+    box-shadow: 18px 22px 8px 10px red;
+}
