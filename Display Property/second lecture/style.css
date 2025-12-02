@@ -1,0 +1,26 @@
+/* 
+.heading{
+    display: inline;
+    border: 1px solid black;
+
+} */
+
+/* .heading{
+    display: inline-block;
+    border: 1px solid black;
+    width: 600px;
+    height: 200px;
+} */
+
+
+/* .heading{
+    display: none;
+    border: 1px solid black;
+} */
+
+
+span{
+    display: block;
+    border: 1px solid black;
+}
+
