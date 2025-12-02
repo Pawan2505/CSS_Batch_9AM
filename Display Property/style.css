@@ -1,0 +1,20 @@
+
+
+/* block to inline */
+
+.heading{
+    /* display: inline; */
+    display: inline-block;
+    height: 200px;
+    width: 800px;
+    border: 1px solid black;
+}
+
+.spanelement{
+    display: block;
+        border: 1px solid black;
+}
+
+#para{
+    display: none;
+}
