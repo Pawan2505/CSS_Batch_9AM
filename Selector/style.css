@@ -1,0 +1,52 @@
+
+
+/* div h1{
+    color: red;
+} */
+
+
+div>h1{
+    color: red;
+}
+
+/* #para::first-letter{
+font-size: 50px;
+color: green;
+} */
+
+/* #para::first-line{
+font-size: 50px;
+color: green;
+} */
+
+
+/* p:first-child{
+    background-color: yellow;
+    color: blue;
+} */
+
+
+/* p:last-child{
+    background-color: yellow;
+    color: blue;
+} */
+
+
+/* p:nth-child(3){
+    background-color: yellow;
+    color: blue;
+} */
+
+/* 
+p:nth-last-child(){
+    background-color: yellow;
+    color: blue;
+}
+ */
+
+
+ .heading::selection{
+
+    background-color: red;
+
+ }

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 
+    
+    Selectordiv,P, Div P, Div > P:First Letter, :First Line, :First Child, :LastChild, :Nth Child(), :Nth Last Child(), ::Selection
+    
+
+    what are these selectors? explain with examples.
+
+    1. div p: This selector targets all <p> elements that are descendants of <div> elements.
+       Example:
+       <div>
+        <h1>This is a heading inside a div.</h1>
+           <p>This paragraph is inside a div.</p>
+            <p>This is another paragraph inside the same div.</p>
+               <span>
+               <p>This paragraph is NOT a direct child of the div.</p>
+           </span>
+       </div>
+
+       <style>
+        div p {
+            color: blue;
+        }
+    
+        
+     </style>
+
+     2. div > p: This selector targets all <p> elements that are direct children of <div> elements.
+       Example:
+       <div>
+           <p>This paragraph is a direct child of the div.</p>
+           <span>
+               <p>This paragraph is NOT a direct child of the div.</p>
+           </span>
+       </div>
+
+       <style>
+        div > p {
+            color: green;
+        }
+        </style>
+
+
+    3. ::first-letter: This pseudo-element selector targets the first letter of the first line of a block-level element.
+         Example:
+         <p>This is a paragraph where the first letter will be styled differently.</p>
+    
+         <style>
+          p::first-letter {
+                font-size: 200%;
+                color: red;
+          }
+         </style>
+
+    4. ::first-line: This pseudo-element selector targets the first line of a block-level element.
+         Example:
+            <p>This is a paragraph where the first line will be styled differently. The styling will only apply to the first line of text in this paragraph.</p>
+            <style>
+            p::first-line {
+                font-weight: bold;
+                color: orange;
+            }
+            </style>
+
+    5. :first-child: This pseudo-class selector targets an element that is the first child of its parent.
+            Example:
+            <div>
+                <p>This paragraph is the first child of the div.</p>
+                <p>This paragraph is the second child of the div.</p>
+            </div>
+    
+            <style>
+            p:first-child {
+                    color: purple;
+            }
+            </style>
+
+    6. :last-child: This pseudo-class selector targets an element that is the last child of its parent.
+            Example:
+            <div>
+                <p>This paragraph is the first child of the div.</p>
+                <p>This paragraph is the last child of the div.</p>
+            </div>
+    
+            <style>
+            p:last-child {
+                    color: brown;
+            }
+            </style>
+
+    7. :nth-child(n): This pseudo-class selector targets the nth child of its parent, where n can be a number, keyword, or formula.
+            Example:
+            <div>
+                <p>First child</p>
+                <p>Second child</p>
+                <p>Third child</p>
+                <p>Fourth child</p>
+            </div>
+    
+            <style>
+            p:nth-child(2) {
+                    color: teal;
+            }
+            </style>
+
+    8. :nth-last-child(n): This pseudo-class selector targets the nth child from the end of its parent.
+
+            Example:
+            <div>
+                <p>First child</p>
+                <p>Second child</p>
+                <p>Third child</p>
+                <p>Fourth child</p>
+            </div>
+    
+            <style>
+            p:nth-last-child(2) {
+                    color: magenta;
+            }
+            </style>
+
+    9. ::selection: This pseudo-element selector targets the portion of an element that is selected by the user.
+            Example:
+            <p>Select this text to see the selection styling in action.</p>
+            <style>
+            p::selection {
+                    background: yellow;
+                    color: black;
+            }
+            </style>
+
+    
+    -->
+
+
+    <div>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, doloribus.</h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, doloribus.</h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, doloribus.</h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, doloribus.</h1>
+
+        <p>
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repudiandae.</h1>
+        </p>
+    </div>
+
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur fugiat nihil velit eaque culpa consequatur porro ex pariatur ipsa, nostrum accusamus. Sunt necessitatibus sint reprehenderit reiciendis officiis exercitationem aspernatur alias commodi molestiae tempora. Voluptates neque, necessitatibus expedita modi aliquid minima illo dolorem minus labore, harum maiores dolorum, vero facilis eveniet veniam corrupti adipisci magni voluptatibus corporis voluptatum eaque cupiditate fugiat. Cupiditate corporis perferendis eveniet impedit asperiores aperiam harum, exercitationem repudiandae cum consectetur debitis excepturi nostrum optio magni iusto veniam atque sit soluta! Deleniti corrupti temporibus consequuntur dolorum cumque quia quae tempore distinctio obcaecati commodi aliquid, veniam repellendus perspiciatis, consectetur magni.</p>
+
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nam.</p>
+    </div>
+
+    <h1 class="heading">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, eveniet.</h1>
+    
+</body>
+</html>
