@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 
+    Position : static, Absolute, Relative, Fixed, Sticky, Z Index, Overflow
+    
+    what is position?
+
+    The position property in CSS is used to specify the type of positioning method for an element.
+
+    Types of Positioning:
+
+    1. Static Positioning:
+       - Default positioning for all HTML elements.
+       - Elements are positioned according to the normal flow of the document.
+       - Example:
+         ```css
+         .static-example {
+             position: static;
+         }
+         ```
+
+    2. Relative Positioning:
+       - The element is positioned relative to its normal position.
+
+         - You can use the top, right, bottom, and left properties to move the element from its normal position.
+
+         - Example:
+            ```css
+            .relative-example {
+                position: relative;
+                top: 10px; /* Moves the element 10px down from its normal position */
+                left: 20px; /* Moves the element 20px to the right from its normal position */
+            }
+            ```
+    3. Absolute Positioning:
+         - The element is positioned relative to its nearest positioned ancestor (an ancestor with a position other than static). If there is no such ancestor, it is positioned relative to the initial containing block (usually the viewport).
+         - The element is removed from the normal document flow and set in starting parent and form stack.
+         - Example:
+            ```css
+            .absolute-example {
+                 position: absolute;
+                 top: 50px; /* Positions the element 50px from the top of its containing block */
+                 left: 100px; /* Positions the element 100px from the left of its containing block */
+            }
+            ```
+
+    4. Fixed Positioning:
+         - The element is positioned relative to the viewport, which means it stays in the same place
+
+              even when the page is scrolled.
+            - The element is removed from the normal document flow.
+            - Example:
+                ```css
+                .fixed-example {
+                    position: fixed;
+                    top: 0; /* Positions the element at the top of the viewport */
+                    right: 0; /* Positions the element at the right of the viewport */
+                }
+                ```
+
+    5. Sticky Positioning:
+         - The element is treated as relative positioned until it crosses a specified threshold, at which point it is treated as fixed positioned.
+
+            - Example:
+                ```css
+                .sticky-example {
+                    position: sticky;
+                    top: 0; /* The element will stick to the top of the viewport when you reach its scroll position */
+                }
+                ```
+    6. Z-Index:
+         - The z-index property specifies the stack order of positioned elements (elements with a position value other than static).
+         - An element with a higher z-index is always in front of an element with a lower z-index.
+         - Example:
+            ```css
+            .z-index-example {
+                position: absolute;
+                z-index: 10; /* This element will be on top of elements with a lower z-index */
+            }
+            ```
+
+
+    7. Overflow:
+         - The overflow property specifies what happens if content overflows an element's box.  
+            - Common values are visible, hidden, scroll, and auto.
+
+            - Example:
+                ```css
+                .overflow-example {
+                    width: 200px;
+                    height: 100px;
+                    overflow: auto; /* Adds scrollbars if content overflows */
+                }
+                ```
+    -->
+
+
+    <!-- relative position -->
+
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+    </div>
+    
+</body>
+</html>
