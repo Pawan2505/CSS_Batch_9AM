@@ -1,0 +1,7 @@
+
+.chatbox{
+    height: 50px;
+    background-color: red;
+    position: sticky;
+    top: 0px;
+}

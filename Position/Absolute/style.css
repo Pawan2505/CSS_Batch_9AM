@@ -1,0 +1,38 @@
+
+.container{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    position: absolute;
+}
+
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: green;
+    bottom: 50%;
+    /* z-index: 2; */
+}
+.box3{
+    /* position: relative; */
+    background-color: yellow;
+    /* top: 200px; */
+}
+.box4{
+    background-color: orange;
+     /* z-index: 1; */
+}
+.box5{
+    background-color: pink;
+    left: 80%;
+    top: 40%;
+}
