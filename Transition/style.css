@@ -1,0 +1,89 @@
+
+/* #para::before {
+    content: "😂";
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+} */
+/* #para::after {
+    content: "😂";
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+} */
+
+
+.container{
+    width: 90%;
+    margin: auto;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    gap: 10%;
+    padding: 50px;
+    justify-content: center;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+     transition: 1s ease 0.5s;
+}
+
+.box1{
+    background-color: lightblue;
+   
+}
+
+.box1:hover{
+     /* transform: translate(100px); */
+       /* transform: translate(100px,200px); */
+    transform: translateY(300px);
+    /* transform: translateX(500px); */
+    /* transform: translateZ(500px); */
+     transition: 1s ease 0.5s;
+}
+.box2{
+    background-color: lightgreen;
+  
+}
+.box2:hover{
+    background-color: lightgreen;
+    /* transform: rotateX(260deg); */
+    /* transform: rotateY(260deg); */
+    transform: rotateZ(300deg);
+    /* transform: rotate(45deg); */
+    transition: 1s ease 0.5s;
+  
+}
+.box3{
+    background-color: lightcoral;
+}
+.box3:hover{
+    background-color: lightcoral;
+    /* transform: skew(45deg); */
+    /* transform: skewX(45deg); */
+    /* transform: skewY(45deg); */
+    transform: skew(180deg);
+    transition: 1s ease 0.5s;
+}
+.box4{
+    background-color: lightyellow;
+}
+.box4:hover{
+    background-color: lightyellow;
+    transform: scale(2);
+    /* transform: scale(1.5,1); */
+    /* transform: scaleX(1.5); */
+    /* transform: scaleY(1.5); */
+    /* transition: 1s ease 0.5s; */
+    /* transition-duration: 2s; */
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-in-out; */
+    /* transition-timing-function: ease-out; */
+    /* transition-delay: 0.5s; */
+    /* transition-property: all; */
+    /* transition-property: inherit; */
+}

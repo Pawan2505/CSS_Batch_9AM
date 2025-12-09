@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 
+    
+    Before, After, Transform, Hover & Transition
+
+    - Transform Property : translate, rotate, scale, skew Hover - :hover
+
+    - Transition Property : duration, timing-function, delay, property
+
+    before & after Pseudo Elements:
+
+    why use before & after Pseudo Elements?
+    - to add cosmetic content to an element with the help of CSS only
+
+    - they are inline by default
+    - they require the content property to be defined
+    - they are used with the ::before and ::after selectors
+    - they are children of the selected element
+    Example:
+    .element::before {
+        content: " ";
+        display: block;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+    }
+
+
+    what is Transform Property?
+
+    Transform Property : translate, rotate, scale, skew
+    - it allows you to modify the coordinate space of the CSS visual formatting model.
+    - it allows you to move, rotate, scale, and skew elements.
+    - it does not affect the position of surrounding elements.
+    - it is commonly used with the transition property to create smooth animations.
+    Example:
+    .element {
+        transform: rotate(45deg);
+    }
+    
+
+    what is Transition Property?
+    Transition Property : duration, timing-function, delay, property
+
+    - it allows you to change property values smoothly (over a given duration).
+    - it is a shorthand property for four transition properties: transition-property, transition-duration, transition
+    -timing-function, transition-delay.
+    - it is commonly used with the transform property to create smooth animations.
+
+
+    Example:
+    .element {
+        transition: transform 0.5s ease-in-out;
+    }
+    -->
+
+    <p id="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, architecto?</p>
+
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+ 
+
+    </div>
+    
+    
+</body>
+</html>
