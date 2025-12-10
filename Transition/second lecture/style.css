@@ -1,0 +1,91 @@
+
+/* .para::before{
+    content: 'This is Before';
+    color: red;
+    font-size: 30px;
+} */
+
+/* window + : */
+/* .para::before{
+    content: '😎';
+} */
+
+/* .para::after{
+    content: 'This is after';
+    color: red;
+    font-size: 30px;
+} */
+
+.container{
+    width: 90vw;
+    height: 90vh;
+    border: 1px solid green;
+    margin: auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(57, 25, 11);
+    /* transition-duration: 2s; */
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-out; */
+    /* transition-timing-function: ease-in-out; */
+    /* transition-timing-function: cubic-bezier(0.88, 0.24, 0, 0.42); */
+    /* transition-delay: 1s; */
+    transition: 2s ease 0.2s;
+}
+
+.box1{
+    background-color: lightblue;
+}
+
+.box1:hover{
+    transform: scale(2);
+    /* transform: scale(1.5,2); */
+    /* transform: scaleX(1.5); */
+    /* transform: scaleY(1.5); */
+
+}
+
+.box2{
+    background-color: rgb(14, 227, 178);
+}
+
+.box2:hover{
+    transform: rotate(180deg);
+    /* transform: rotateX(180deg); */
+    
+    /* transform: rotateY(180deg); */
+    /* transform: rotateZ(180deg); */
+}
+
+.box3{
+    background-color: rgb(226, 17, 31);
+}
+
+.box3:hover{
+    /* transform: skew(45deg); */
+    transform: skew(45deg,60deg);
+    /* transform: skewX(45deg); */
+    /* transform: skewY(45deg); */
+    /* transform: skewZ(45deg); */
+}
+
+.box4{
+    background-color: rgb(232, 11, 195);
+}
+
+.box4:hover{
+    /* transform: translate(100px); */
+    transform: translate(100px,200px);
+    /* transform: translateX(100px); */
+    /* transform: translateY(100px); */
+}
+
+
