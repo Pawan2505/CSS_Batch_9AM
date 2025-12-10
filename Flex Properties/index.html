@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 
+    
+    Display Flex (Parent Property)
+    Display: Flex 
+    FlexDirection (Row, Row Reverse, Column, Column Reverse)Flex Wrap (Nowrap, Wrap, Wrap Reverse)
+    Flex Flow (Flex Direction Flex Wrap)
+
+
+    What is Flexbox?
+    - Flexbox is a one-dimensional layout method for arranging items in rows or columns.
+    - It is designed to provide a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown or dynamic.
+    - Flexbox makes it easier to design flexible responsive layout structures without using float or positioning.
+
+
+    Basic Terminology:
+
+    - Flex Container:
+     The parent element that holds the flex items. It is defined by setting the display property to flex or inline-flex.
+
+
+    - Flex Items:
+     The child elements inside the flex container that are laid out using the flexbox model.
+
+    1. display: flex;
+    
+    - This property is applied to the parent container to enable flexbox layout.
+
+    2. flex-direction: row | row-reverse | column | column-reverse;
+
+         
+    - This property defines the main axis direction along which the flex items are laid out.   
+
+            
+    - row (default): Items are laid out horizontally from left to right.
+
+            
+    - row-reverse: Items are laid out horizontally from right to left.
+
+            
+    - column: Items are laid out vertically from top to bottom.
+
+    - column-reverse: Items are laid out vertically from bottom to top.
+    
+    3. flex-wrap: nowrap | wrap | wrap-reverse;
+
+    - This property defines whether the flex items should wrap onto multiple lines or stay on a single line.
+    
+    - nowrap (default): All items are laid out in a single line, potentially overflowing the container.
+
+                
+    - wrap: Items will wrap onto multiple lines if necessary, from top to bottom.
+
+    - wrap-reverse: Items will wrap onto multiple lines if necessary, but in reverse order, from bottom to top.
+
+    4. flex-flow: <flex-direction> <flex-wrap>;
+
+    - This is a shorthand property that combines flex-direction and flex-wrap into a single declaration.
+
+    Example:
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    0. Container with -> display : flex
+
+    1. Flex Direction Row
+
+    2. Flex Direction Row Reverse
+
+    3. Flex Direction Column
+
+    4. Flex Direction Column Reverse
+
+    5. Flex Wrap Nowrap
+
+    6. Flex Wrap Wrap
+
+    7. Flex Wrap Wrap Reverse
+
+    8. Flex Flow
+
+        .container {
+                display: flex;
+                flex-flow: row wrap;
+            }
+    
+    
+    -->
+
+
+    <div class="container">
+        <div class="box">Box1</div>
+        <div class="box">Box2</div>
+        <div class="box">Box3</div>
+        <div class="box">Box4</div>
+        <div class="box">Box5</div>
+        <div class="box">Box6</div>
+        <div class="box">Box7</div>
+        <div class="box">Box8</div>
+        <div class="box">Box9</div>
+        <div class="box">Box10</div>
+        <div class="box">Box11</div>
+        <div class="box">Box12</div>
+        <div class="box">Box13</div>
+        <div class="box">Box14</div>
+        <div class="box">Box15</div>
+    </div>
+    
+</body>
+</html>
