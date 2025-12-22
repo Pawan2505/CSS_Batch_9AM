@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone UI</title>
+    <style>
+        /* Basic Reset */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: white;
+            overflow-x: hidden;
+        }
+
+        /* Hero Section with Background Images */
+        .hero-section {
+            position: relative;
+            height: 60vh;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.1), #000),
+                        url('https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        /* --- THE CURVE --- */
+        .netflix-curve {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 80px;
+            background: #000;
+            /* Inset curve effect */
+            border-top: 4px solid #e50914; 
+            border-radius: 100% 100% 0 0;
+            transform: scaleX(1.5); /* Curves the line naturally */
+            box-shadow: 0px -10px 30px rgba(229, 9, 20, 0.4);
+            z-index: 10;
+        }
+
+        /* Trending Section */
+        .trending-container {
+            padding: 40px;
+            margin-top: -20px;
+            position: relative;
+            z-index: 20;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        /* --- THE NUMBERS & CARDS --- */
+        .poster-wrapper {
+            display: flex;
+            gap: 40px; /* Space between cards */
+            overflow-x: auto;
+            padding: 20px 0;
+            scrollbar-width: none; /* Hide scrollbar for clean look */
+        }
+
+        .card {
+            position: relative;
+            min-width: 180px;
+            height: 270px;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .card-number {
+            position: absolute;
+            left: -15px;
+            bottom: -15px;
+            font-size: 160px;
+            font-weight: 900;
+            color: #000; /* Black fill */
+            -webkit-text-stroke: 3px #555; /* Darker outline like image */
+            line-height: 1;
+            z-index: 100;
+            /* Netflix font feel */
+            letter-spacing: -10px;
+            user-select: none;
+        }
+
+        .card-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+            position: relative;
+            z-index: 2; /* Sits on top of the number */
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover .card-img {
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="hero-section">
+        <div class="netflix-curve"></div>
+    </div>
+
+    <div class="trending-container">
+        <h2 class="section-title">Trending Now</h2>
+        
+        <div class="poster-wrapper">
+            <div class="card">
+                <span class="card-number">1</span>
+                <img src="https://picsum.photos/id/237/200/300" class="card-img">
+            </div>
+
+            <div class="card">
+                <span class="card-number">2</span>
+                <img src="https://picsum.photos/id/237/200/300" class="card-img">
+            </div>
+            <div class="card">
+                <span class="card-number">1</span>
+                <img src="https://picsum.photos/id/235/200/300" class="card-img">
+            </div>
+
+            <div class="card">
+                <span class="card-number">2</span>
+                <img src="https://picsum.photos/id/234/200/300" class="card-img">
+            </div>
+            <div class="card">
+                <span class="card-number">1</span>
+                <img src="https://picsum.photos/id/232/200/300" class="card-img">
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+</html>

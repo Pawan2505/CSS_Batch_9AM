@@ -1,0 +1,29 @@
+.hero-section::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  
+  /* Width ko screen se bohot zyada bada rakhein (e.g. 200% ya 300%) */
+  width: 250%; 
+  /* Height ko kam rakhein taaki curve halka ho jaye */
+  height: 80px; 
+  
+  background: black;
+  border-radius: 50% 50% 0 0; 
+  
+  /* Curve ko center mein laane ke liye */
+  transform: translateX(-50%);
+  
+  /* Thodi si red border aur glow effects ke liye */
+  border-top: 3px solid #e50914;
+  box-shadow: 0px -10px 20px rgba(229, 9, 20, 0.3);
+}
+.line-curve{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    border: 2px solid red;
+    /* height: 2px; */
+    border-radius: 50%;
+}
