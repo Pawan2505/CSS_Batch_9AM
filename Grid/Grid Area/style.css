@@ -1,0 +1,49 @@
+
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px 200px 200px 200px;
+
+    grid-template-areas: 
+    'header header header header'
+    'sidebar main-content main-content service'
+    'sidebar product product service'
+    'footer footer footer footer'
+    ;
+}
+
+.grid-items{
+    border: 1px solid green;
+}
+
+.header{
+    grid-area: header;
+    padding: 50px;
+    background-color: rebeccapurple;
+}
+.sidebar{
+    grid-area: sidebar;
+    padding: 50px;
+    background-color: lightgoldenrodyellow;
+}
+.main-content{
+    grid-area: main-content;
+    padding: 50px;
+    background-color: red;
+}
+.product{
+    grid-area: product;
+    padding: 50px;
+    background-color: green;
+}
+.service{
+    grid-area: service;
+    padding: 50px;
+    background-color: rgb(193, 220, 18);
+}
+.footer{
+    grid-area: footer;
+    padding: 50px;
+    background-color: pink;
+}
